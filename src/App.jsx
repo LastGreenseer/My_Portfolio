@@ -3,11 +3,13 @@ import NavBar from './components/Navbar';
 import Home from "./pages/Home";
 import AboutMe from './pages/AboutMe';
 import ContactMe from './pages/ContactMe';
+import GlobalStyle from "./GlobalStyle";
 
-function App() {
+const App = () => {
 
   return (
     <Router>
+      <GlobalStyle />
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
