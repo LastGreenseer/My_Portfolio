@@ -34,6 +34,8 @@ const NavList = styled.ul`
 
 const NavItem = styled.li`
   margin: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
 `;
 
 const NavLink = styled(Link)`
