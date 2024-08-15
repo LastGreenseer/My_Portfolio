@@ -11,8 +11,9 @@ const Home = () => {
         <ProjectCard>
           <ProjectTitle>Website Clone</ProjectTitle>
           <ProjectDescription>
-            This was the first project I worked on at Code Nation and my first attmept coding with HTML.
-            The objective was to pick a site and make a copy that resembled the site as close as we could.
+            This was the first project I worked on at Code Nation and my first
+            attmept coding with HTML. The objective was to pick a site and make
+            a copy that resembled the site as close as we could.
           </ProjectDescription>
           <ProjectLink
             href="https://github.com/LastGreenseer/CN-Website-Clone"
@@ -29,7 +30,8 @@ const Home = () => {
         <ProjectCard>
           <ProjectTitle>Keycode Challange</ProjectTitle>
           <ProjectDescription>
-            This is a simple app that displays the key information of whatever key the user presses.
+            This is a simple app that displays the key information of whatever
+            key the user presses.
           </ProjectDescription>
           <ProjectLink
             href="https://github.com/LastGreenseer/Keycode_challange"
@@ -54,6 +56,7 @@ const Home = () => {
           </ProjectLink>
           <ProjectLink
             href="https://calculater-rc.netlify.app/"
+            alt="Calculater App"
             target="_blank"
           >
             View on Netify
@@ -61,12 +64,25 @@ const Home = () => {
         </ProjectCard>
 
         <ProjectCard>
-          <ProjectTitle>title3</ProjectTitle>
-          <ProjectDescription>description here</ProjectDescription>
-          <ProjectLink href="" target="_blank">
+          <ProjectTitle>Drumkit Challange</ProjectTitle>
+          <ProjectDescription>
+            This app is a 'Drum Kit' soundboard that plays a specific sound when
+            the user presses the corosponding key. It works in the same way as
+            the 'Keycode Generator' shown before, in that it runs a function
+            when a specific key is pressed.
+          </ProjectDescription>
+          <ProjectLink
+            href="https://github.com/LastGreenseer/Drumkit_Challenge"
+            alt="Drumkit Challange"
+            target="_blank"
+          >
             View on Github
           </ProjectLink>
-          <ProjectLink href="" target="_blank">
+          <ProjectLink
+            href="https://drumkitchallenge-rc.netlify.app/"
+            alt="Drumkit Challange"
+            target="_blank"
+          >
             View on Netify
           </ProjectLink>
         </ProjectCard>
