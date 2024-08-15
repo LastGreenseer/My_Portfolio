@@ -5,6 +5,10 @@ const Home = () => {
     <Container>
       <Title>Ryan's Portfolio</Title>
 
+      <AboutMe>
+        <Subtitle>About Me</Subtitle>
+      </AboutMe>
+
       <Projects>
         <Subtitle>Projects</Subtitle>
 
@@ -128,15 +132,28 @@ const Subtitle = styled.h2`
   text-align: center;
 `;
 
+const AboutMe = styled.div`
+  border-style: solid;
+  border-color: black;
+  background-color: #4b4848;
+  width: 75%;
+  margin: 0 auto;
+`;
+
 const Projects = styled.div`
   border-style: solid;
-  background-color: #4b4848;
+  background-color: #726d6d;
   border-color: black;
+  width: 75%;
+  margin: 0 auto;
 `;
 
 const ProjectCard = styled.div`
-  margin-bottom: 2px;
-  padding: 1px;
+  background-color: #4b4848;
+  margin: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-bottom: 10px;
   border: 1px solid black;
   border-radius: 4px;
 `;
