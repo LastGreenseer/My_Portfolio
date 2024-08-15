@@ -3,15 +3,21 @@ import styled from "styled-components";
 const Home = () => {
   return (
     <Container>
-      <Title>My Portfolio</Title>
+      <Title>Ryan's Portfolio</Title>
+
+      <AboutMe>
+        <Subtitle>About Me</Subtitle>
+      </AboutMe>
+
       <Projects>
         <Subtitle>Projects</Subtitle>
 
         <ProjectCard>
           <ProjectTitle>Website Clone</ProjectTitle>
           <ProjectDescription>
-            My first ever attempt at making a webpage with HTML and CSS after
-            first week of learning coding
+            This was the first project I worked on at Code Nation and my first
+            attmept coding with HTML. The objective was to pick a site and make
+            a copy that resembled the site as close as we could.
           </ProjectDescription>
           <ProjectLink
             href="https://github.com/LastGreenseer/CN-Website-Clone"
@@ -28,8 +34,8 @@ const Home = () => {
         <ProjectCard>
           <ProjectTitle>Keycode Challange</ProjectTitle>
           <ProjectDescription>
-            A keycode Genrator that displays the information of whatever key is
-            pressed
+            This is a simple app that displays the key information of whatever
+            key the user presses.
           </ProjectDescription>
           <ProjectLink
             href="https://github.com/LastGreenseer/Keycode_challange"
@@ -43,7 +49,7 @@ const Home = () => {
         <ProjectCard>
           <ProjectTitle>Calculater App</ProjectTitle>
           <ProjectDescription>
-            A basic, functioning calculater
+            This is a simple calculator app.
           </ProjectDescription>
           <ProjectLink
             href="https://github.com/LastGreenseer/Calculator-App"
@@ -54,6 +60,7 @@ const Home = () => {
           </ProjectLink>
           <ProjectLink
             href="https://calculater-rc.netlify.app/"
+            alt="Calculater App"
             target="_blank"
           >
             View on Netify
@@ -61,23 +68,48 @@ const Home = () => {
         </ProjectCard>
 
         <ProjectCard>
-          <ProjectTitle>title3</ProjectTitle>
-          <ProjectDescription>description here</ProjectDescription>
-          <ProjectLink href="" target="_blank">
+          <ProjectTitle>Drumkit Challange</ProjectTitle>
+          <ProjectDescription>
+            This app is a 'Drum Kit' soundboard that plays a specific sound when
+            the user presses the corosponding key. It works in the same way as
+            the 'Keycode Generator' shown before, in that it runs a function
+            when a specific key is pressed.
+          </ProjectDescription>
+          <ProjectLink
+            href="https://github.com/LastGreenseer/Drumkit_Challenge"
+            alt="Drumkit Challange"
+            target="_blank"
+          >
             View on Github
           </ProjectLink>
-          <ProjectLink href="" target="_blank">
+          <ProjectLink
+            href="https://drumkitchallenge-rc.netlify.app/"
+            alt="Drumkit Challange"
+            target="_blank"
+          >
             View on Netify
           </ProjectLink>
         </ProjectCard>
 
         <ProjectCard>
-          <ProjectTitle>title5</ProjectTitle>
-          <ProjectDescription>description here</ProjectDescription>
-          <ProjectLink href="" target="_blank">
+          <ProjectTitle>To Do List</ProjectTitle>
+          <ProjectDescription>
+            This is a 'To-Do List' app where users can add a task to the to-do
+            board and mark the task as done once the task is complete. Using
+            CSS, I have made the tasks resemble stick-notes on a bulleton board.
+          </ProjectDescription>
+          <ProjectLink
+            href="https://github.com/LastGreenseer/to-do-list"
+            alt="To-Do List"
+            target="_blank"
+          >
             View on Github
           </ProjectLink>
-          <ProjectLink href="" target="_blank">
+          <ProjectLink
+            href="https://ryans-to-do-list.netlify.app/"
+            alt="To-Do List"
+            target="_blank"
+          >
             View on Netify
           </ProjectLink>
         </ProjectCard>
@@ -91,7 +123,7 @@ const Container = styled.div`
 `;
 
 const Title = styled.h1`
-  color: #333;
+  color: #ffffff;
   text-align: center;
 `;
 
@@ -100,15 +132,28 @@ const Subtitle = styled.h2`
   text-align: center;
 `;
 
+const AboutMe = styled.div`
+  border-style: solid;
+  border-color: black;
+  background-color: #4b4848;
+  width: 75%;
+  margin: 0 auto;
+`;
+
 const Projects = styled.div`
   border-style: solid;
-  background-color: #4b4848;
+  background-color: #726d6d;
   border-color: black;
+  width: 75%;
+  margin: 0 auto;
 `;
 
 const ProjectCard = styled.div`
-  margin-bottom: 2px;
-  padding: 1px;
+  background-color: #4b4848;
+  margin: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-bottom: 10px;
   border: 1px solid black;
   border-radius: 4px;
 `;
