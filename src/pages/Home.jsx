@@ -88,12 +88,24 @@ const Home = () => {
         </ProjectCard>
 
         <ProjectCard>
-          <ProjectTitle>title5</ProjectTitle>
-          <ProjectDescription>description here</ProjectDescription>
-          <ProjectLink href="" target="_blank">
+          <ProjectTitle>To Do List</ProjectTitle>
+          <ProjectDescription>
+            This is a 'To-Do List' app where users can add a task to the to-do
+            board and mark the task as done once the task is complete. Using
+            CSS, I have made the tasks resemble stick-notes on a bulleton board.
+          </ProjectDescription>
+          <ProjectLink
+            href="https://github.com/LastGreenseer/to-do-list"
+            alt="To-Do List"
+            target="_blank"
+          >
             View on Github
           </ProjectLink>
-          <ProjectLink href="" target="_blank">
+          <ProjectLink
+            href="https://ryans-to-do-list.netlify.app/"
+            alt="To-Do List"
+            target="_blank"
+          >
             View on Netify
           </ProjectLink>
         </ProjectCard>
