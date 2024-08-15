@@ -3,15 +3,16 @@ import styled from "styled-components";
 const Home = () => {
   return (
     <Container>
-      <Title>My Portfolio</Title>
+      <Title>Ryan's Portfolio</Title>
+
       <Projects>
         <Subtitle>Projects</Subtitle>
 
         <ProjectCard>
           <ProjectTitle>Website Clone</ProjectTitle>
           <ProjectDescription>
-            My first ever attempt at making a webpage with HTML and CSS after
-            first week of learning coding
+            This was the first project I worked on at Code Nation and my first attmept coding with HTML.
+            The objective was to pick a site and make a copy that resembled the site as close as we could.
           </ProjectDescription>
           <ProjectLink
             href="https://github.com/LastGreenseer/CN-Website-Clone"
@@ -28,8 +29,7 @@ const Home = () => {
         <ProjectCard>
           <ProjectTitle>Keycode Challange</ProjectTitle>
           <ProjectDescription>
-            A keycode Genrator that displays the information of whatever key is
-            pressed
+            This is a simple app that displays the key information of whatever key the user presses.
           </ProjectDescription>
           <ProjectLink
             href="https://github.com/LastGreenseer/Keycode_challange"
@@ -43,7 +43,7 @@ const Home = () => {
         <ProjectCard>
           <ProjectTitle>Calculater App</ProjectTitle>
           <ProjectDescription>
-            A basic, functioning calculater
+            This is a simple calculator app.
           </ProjectDescription>
           <ProjectLink
             href="https://github.com/LastGreenseer/Calculator-App"
@@ -91,7 +91,7 @@ const Container = styled.div`
 `;
 
 const Title = styled.h1`
-  color: #333;
+  color: #ffffff;
   text-align: center;
 `;
 
