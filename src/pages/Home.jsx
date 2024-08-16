@@ -13,7 +13,13 @@ const Home = () => {
           of codeing with Javascript or any other programming language. Over the
           two month course I learned how to create simple websites using HTML
           and CSS and how to make apps using functions and components in
-          Javascript.
+          Javascript. I found it difficult to grasp at first, and struggled
+          slightly in the begining, but over the first few weeks I bagan to
+          understand the basics of programming, thanks to the guidance of the
+          Code Nation instructors. Over the 2 month course my confidance in
+          programming with Javascript grew as I learned how to design simple
+          websites and make basic apps. Below I have included some of the
+          projects I worked on at my time with Code Nation:
         </Description>
       </AboutMe>
 
