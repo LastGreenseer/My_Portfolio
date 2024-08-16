@@ -16,7 +16,7 @@ const Home = () => {
           Javascript. I found it difficult to grasp at first, and struggled
           slightly in the begining, but over the first few weeks I bagan to
           understand the basics of programming, thanks to the guidance of the
-          Code Nation instructors. Over the 2 month course my confidance in
+          Code Nation instructors. Over the two months my confidance in
           programming with Javascript grew as I learned how to design simple
           websites and make basic apps. Below I have included some of the
           projects I worked on at my time with Code Nation:
@@ -141,11 +141,6 @@ const Title = styled.h1`
   text-align: center;
 `;
 
-const Subtitle = styled.h2`
-  color: white;
-  text-align: center;
-`;
-
 const AboutMe = styled.div`
   border-style: solid;
   border-color: black;
@@ -154,9 +149,19 @@ const AboutMe = styled.div`
   margin: 0 auto;
 `;
 
+const Subtitle = styled.h2`
+  color: white;
+  text-align: center;
+  border-bottom: solid gray;
+  padding-bottom: 10px;
+`;
+
 const Description = styled.p`
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin-left: 5px;
 `;
 
@@ -191,14 +196,14 @@ const ProjectDescription = styled.p`
 `;
 
 const ProjectLink = styled.a`
-  color: #2fcfff;
+  color: #278aa8;
   text-decoration: none;
   margin: 5px;
   margin-left: 5px;
   margin-right: 30px;
 
   &:hover {
-    color: #9e0707;
+    color: #22ddeb;
   }
 `;
 
