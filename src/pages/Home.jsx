@@ -7,6 +7,9 @@ const Home = () => {
 
       <AboutMe>
         <Subtitle>About Me</Subtitle>
+        <Description>
+          I first started codeing DATE HERE 
+        </Description>
       </AboutMe>
 
       <Projects>
@@ -138,6 +141,12 @@ const AboutMe = styled.div`
   background-color: #4b4848;
   width: 75%;
   margin: 0 auto;
+`;
+
+const Description = styled.p`
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-left: 5px;
 `;
 
 const Projects = styled.div`
