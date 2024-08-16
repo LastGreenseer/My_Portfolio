@@ -8,7 +8,12 @@ const Home = () => {
       <AboutMe>
         <Subtitle>About Me</Subtitle>
         <Description>
-          I first started codeing DATE HERE 
+          I first started programming with the Code Nation online bootcamp.
+          Before joining the online course in May 2024, I had no prior knowledge
+          of codeing with Javascript or any other programming language. Over the
+          two month course I learned how to create simple websites using HTML
+          and CSS and how to make apps using functions and components in
+          Javascript.
         </Description>
       </AboutMe>
 
@@ -138,7 +143,7 @@ const Subtitle = styled.h2`
 const AboutMe = styled.div`
   border-style: solid;
   border-color: black;
-  background-color: #4b4848;
+  background-color: #533564;
   width: 75%;
   margin: 0 auto;
 `;
