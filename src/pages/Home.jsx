@@ -31,9 +31,9 @@ const Home = () => {
       </AboutMe>
 
       <Projects>
-        <Subtitle onClick={toggleProjects} clickable>
+        <ProjectsSubtitle onClick={toggleProjects} clickable>
           Projects
-        </Subtitle>
+        </ProjectsSubtitle>
 
         {showProjects && (
           <>
@@ -163,6 +163,20 @@ const AboutMe = styled.div`
   margin: 0 auto;
 `;
 
+const ProjectsSubtitle = styled.h2`
+  color: white;
+  text-align: center;
+  width: 60%;
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  &:hover {
+    cursor: pointer;
+    color: #901db3;
+  }
+`;
+
 const Subtitle = styled.h2`
   color: white;
   text-align: center;
@@ -185,6 +199,7 @@ const Projects = styled.div`
   border-color: black;
   width: 75%;
   margin: 0 auto;
+  min-height: 100px;
 `;
 
 const ProjectCard = styled.div`
