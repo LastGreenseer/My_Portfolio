@@ -38,22 +38,30 @@ const Home = () => {
         {showProjects && (
           <>
             <ProjectCard>
-              <ProjectTitle>Website Clone</ProjectTitle>
-              <ProjectDescription>
-                This was the first project I worked on at Code Nation and my
-                first attmept coding with HTML. The objective was to pick a site
-                and make a copy that resembled the site as close as we could.
-              </ProjectDescription>
-              <ProjectLink
-                href="https://github.com/LastGreenseer/CN-Website-Clone"
-                alt="Marvel Website Clone"
-                target="_blank"
-              >
-                View on Github
-              </ProjectLink>
-              <ProjectLink href="" target="_blank">
-                View on Netify
-              </ProjectLink>
+              <ProjectInfo>
+                <ProjectTitle>Website Clone</ProjectTitle>
+
+                <ProjectDescription>
+                  This was the first project I worked on at Code Nation and my
+                  first attmept coding with HTML. The objective was to pick a
+                  site and make a copy that resembled the site as close as we
+                  could.
+                </ProjectDescription>
+                <ProjectLinks>
+                  <ProjectLink
+                    href="https://github.com/LastGreenseer/CN-Website-Clone"
+                    alt="Marvel Website Clone"
+                    target="_blank"
+                  >
+                    View on Github
+                  </ProjectLink>
+
+                  <ProjectLink href="" target="_blank">
+                    View on Netify
+                  </ProjectLink>
+                </ProjectLinks>
+              </ProjectInfo>
+              <ProjectImage />
             </ProjectCard>
 
             <ProjectCard>
@@ -216,6 +224,10 @@ const ProjectCard = styled.div`
   border-radius: 4px;
 `;
 
+const ProjectInfo = styled.div`
+  max-width: 70%;
+`;
+
 const ProjectTitle = styled.h3`
   color: white;
   font-family: "Arial Narrow Bold", sans-serif;
@@ -229,6 +241,10 @@ const ProjectDescription = styled.p`
   margin-left: 5px;
 `;
 
+const ProjectLinks = styled.div`
+  margin-left: 5px;
+`;
+
 const ProjectLink = styled.a`
   color: #1ec3e0;
   text-decoration: none;
@@ -239,6 +255,13 @@ const ProjectLink = styled.a`
   &:hover {
     color: #45eff5;
   }
+`;
+
+const ProjectImage = styled.img`
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+  margin-left: 10px;
 `;
 
 export default Home;
