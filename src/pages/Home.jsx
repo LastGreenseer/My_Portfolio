@@ -61,7 +61,7 @@ const Home = () => {
                   </ProjectLink>
                 </ProjectLinks>
               </ProjectInfo>
-              <ProjectImage />
+              <ProjectImage src="src\Images\website-clone-rc.png" alt="Website Clone" />
             </ProjectCard>
 
             <ProjectCard>
