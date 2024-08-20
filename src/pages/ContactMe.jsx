@@ -13,7 +13,7 @@ const Container = styled.div`
 `;
 
 const Title = styled.h1`
-  color: #333;
+  color: #ffffff;
   text-align: center;
 `;
 

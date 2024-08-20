@@ -20,7 +20,7 @@ const Navbar = () => {
 };
 
 const Nav = styled.nav`
-  background-color: #670d83;
+  background-color: #452050;
   padding: 5px;
 `;
 
