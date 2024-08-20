@@ -153,6 +153,7 @@ const Container = styled.div`
 const Title = styled.h1`
   color: #ffffff;
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 `;
 
 const AboutMe = styled.div`
@@ -170,6 +171,7 @@ const ProjectsSubtitle = styled.h2`
   padding: 20px;
   margin: 0 auto;
   box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 
   &:hover {
     cursor: pointer;
@@ -182,10 +184,11 @@ const Subtitle = styled.h2`
   text-align: center;
   border-bottom: solid gray;
   padding-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
 `;
 
 const Description = styled.p`
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   padding: 10px;
   padding-left: 40px;
@@ -219,7 +222,7 @@ const ProjectTitle = styled.h3`
 `;
 
 const ProjectDescription = styled.p`
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   margin-left: 5px;
 `;
