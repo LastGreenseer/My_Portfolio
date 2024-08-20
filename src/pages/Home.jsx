@@ -153,6 +153,7 @@ const Container = styled.div`
 const Title = styled.h1`
   color: #ffffff;
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 `;
 
 const AboutMe = styled.div`
@@ -170,10 +171,12 @@ const ProjectsSubtitle = styled.h2`
   padding: 20px;
   margin: 0 auto;
   box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 
   &:hover {
     cursor: pointer;
-    color: #901db3;
+    color: #a01cbb;
+    text-decoration: underline;
   }
 `;
 
@@ -182,10 +185,11 @@ const Subtitle = styled.h2`
   text-align: center;
   border-bottom: solid gray;
   padding-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
 `;
 
 const Description = styled.p`
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   padding: 10px;
   padding-left: 40px;
@@ -195,7 +199,7 @@ const Description = styled.p`
 
 const Projects = styled.div`
   border-style: solid;
-  background-color: #726d6d;
+  background-color: #4e4c4c;
   border-color: black;
   width: 75%;
   margin: 0 auto;
@@ -203,7 +207,7 @@ const Projects = styled.div`
 `;
 
 const ProjectCard = styled.div`
-  background-color: #4b4848;
+  background-color: #533564;
   margin: 15px;
   margin-bottom: 20px;
   padding: 10px;
@@ -215,24 +219,25 @@ const ProjectCard = styled.div`
 const ProjectTitle = styled.h3`
   color: white;
   font-family: "Arial Narrow Bold", sans-serif;
+  text-decoration: underline;
   margin-left: 5px;
 `;
 
 const ProjectDescription = styled.p`
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   margin-left: 5px;
 `;
 
 const ProjectLink = styled.a`
-  color: #278aa8;
+  color: #1ec3e0;
   text-decoration: none;
   margin: 5px;
   margin-left: 5px;
   margin-right: 30px;
 
   &:hover {
-    color: #22ddeb;
+    color: #45eff5;
   }
 `;
 

@@ -20,7 +20,7 @@ const Navbar = () => {
 };
 
 const Nav = styled.nav`
-  background-color: #2a5e30;
+  background-color: #452050;
   padding: 5px;
 `;
 
@@ -41,6 +41,7 @@ const NavItem = styled.li`
 const NavLink = styled(Link)`
   color: #fff;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 
   &:hover {
     text-decoration: underline;
