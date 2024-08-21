@@ -61,22 +61,30 @@ const Home = () => {
                   </ProjectLink>
                 </ProjectLinks>
               </ProjectInfo>
-              <ProjectImage src="src\Images\website-clone-rc.png" alt="Website Clone" />
+              <ProjectImage
+                src="src\Images\website-clone-rc.png"
+                alt="Website Clone"
+              />
             </ProjectCard>
 
             <ProjectCard>
-              <ProjectTitle>Keycode Challange</ProjectTitle>
-              <ProjectDescription>
-                This is a simple app that displays the key information of
-                whatever key the user presses.
-              </ProjectDescription>
-              <ProjectLink
-                href="https://github.com/LastGreenseer/Keycode_challange"
-                alt="Keycode Challange"
-                target="_blank"
-              >
-                View on GitHub
-              </ProjectLink>
+              <ProjectInfo>
+                <ProjectTitle>Keycode Challange</ProjectTitle>
+                <ProjectDescription>
+                  This is a simple app that displays the key information of
+                  whatever key the user presses.
+                </ProjectDescription>
+                <ProjectLinks>
+                  <ProjectLink
+                    href="https://github.com/LastGreenseer/Keycode_challange"
+                    alt="Keycode Challange"
+                    target="_blank"
+                  >
+                    View on GitHub
+                  </ProjectLink>
+                </ProjectLinks>
+              </ProjectInfo>
+              <ProjectImage src="src\Images\keycode-generator-rc.png" />
             </ProjectCard>
 
             <ProjectCard>
