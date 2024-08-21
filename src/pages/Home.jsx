@@ -117,8 +117,9 @@ const Home = () => {
             </ProjectCard>
 
             <ProjectCard>
-              <ProjectTitle>Drumkit Challange</ProjectTitle>
               <ProjectInfo>
+              <ProjectTitle>Drumkit Challange</ProjectTitle>
+              
                 <ProjectDescription>
                   This app is a 'Drum Kit' soundboard that plays a specific
                   sound when the user presses the corosponding key. It works in
@@ -149,8 +150,9 @@ const Home = () => {
             </ProjectCard>
 
             <ProjectCard>
-              <ProjectTitle>To Do List</ProjectTitle>
               <ProjectInfo>
+              <ProjectTitle>To Do List</ProjectTitle>
+              
                 <ProjectDescription>
                   This is a 'To-Do List' app where users can add a task to the
                   to-do board and mark the task as done once the task is
@@ -257,6 +259,11 @@ align-items: center;
 `;
 
 const ProjectInfo = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex: 1;
+padding-right: 10px;
   max-width: 70%;
 `;
 
