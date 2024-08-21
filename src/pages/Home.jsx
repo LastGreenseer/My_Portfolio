@@ -110,7 +110,10 @@ const Home = () => {
                   </ProjectLink>
                 </ProjectLinks>
               </ProjectInfo>
-              <ProjectImage src="src\Images\calculater-rc.png" alt="Calculater Screenshot" />
+              <ProjectImage
+                src="src\Images\calculater-rc.png"
+                alt="Calculater Screenshot"
+              />
             </ProjectCard>
 
             <ProjectCard>
@@ -139,31 +142,39 @@ const Home = () => {
                   </ProjectLink>
                 </ProjectLinks>
               </ProjectInfo>
-              <ProjectImage src="src\Images\drumkit-rc.png" alt="Drumkit Screenshot" />
+              <ProjectImage
+                src="src\Images\drumkit-rc.png"
+                alt="Drumkit Screenshot"
+              />
             </ProjectCard>
 
             <ProjectCard>
               <ProjectTitle>To Do List</ProjectTitle>
-              <ProjectDescription>
-                This is a 'To-Do List' app where users can add a task to the
-                to-do board and mark the task as done once the task is complete.
-                Using CSS, I have made the tasks resemble stick-notes on a
-                bulleton board.
-              </ProjectDescription>
-              <ProjectLink
-                href="https://github.com/LastGreenseer/to-do-list"
-                alt="To-Do List"
-                target="_blank"
-              >
-                View on Github
-              </ProjectLink>
-              <ProjectLink
-                href="https://ryans-to-do-list.netlify.app/"
-                alt="To-Do List"
-                target="_blank"
-              >
-                View on Netify
-              </ProjectLink>
+              <ProjectInfo>
+                <ProjectDescription>
+                  This is a 'To-Do List' app where users can add a task to the
+                  to-do board and mark the task as done once the task is
+                  complete. Using CSS, I have made the tasks resemble
+                  stick-notes on a bulleton board.
+                </ProjectDescription>
+                <ProjectLinks>
+                  <ProjectLink
+                    href="https://github.com/LastGreenseer/to-do-list"
+                    alt="To-Do List"
+                    target="_blank"
+                  >
+                    View on Github
+                  </ProjectLink>
+                  <ProjectLink
+                    href="https://ryans-to-do-list.netlify.app/"
+                    alt="To-Do List"
+                    target="_blank"
+                  >
+                    View on Netify
+                  </ProjectLink>
+                </ProjectLinks>
+              </ProjectInfo>
+              <ProjectImage src="src\Images\to-do-list-rc.png" alt="to-do List Screenshot" />
             </ProjectCard>
           </>
         )}
