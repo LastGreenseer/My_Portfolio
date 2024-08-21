@@ -215,6 +215,9 @@ const Projects = styled.div`
 `;
 
 const ProjectCard = styled.div`
+display:flex;
+justify-content: space-between;
+align-items: center;
   background-color: #533564;
   margin: 15px;
   margin-bottom: 20px;
@@ -258,10 +261,11 @@ const ProjectLink = styled.a`
 `;
 
 const ProjectImage = styled.img`
-  width: 100px;
+  width: 200px;
   height: auto;
   border-radius: 4px;
   margin-left: 10px;
+  margin-right: 10px;
 `;
 
 export default Home;
