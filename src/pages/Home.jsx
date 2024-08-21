@@ -88,48 +88,57 @@ const Home = () => {
             </ProjectCard>
 
             <ProjectCard>
-              <ProjectTitle>Calculater App</ProjectTitle>
-              <ProjectDescription>
-                This is a simple calculator app.
-              </ProjectDescription>
-              <ProjectLink
-                href="https://github.com/LastGreenseer/Calculator-App"
-                alt="Calculater App"
-                target="_blank"
-              >
-                View on Github
-              </ProjectLink>
-              <ProjectLink
-                href="https://calculater-rc.netlify.app/"
-                alt="Calculater App"
-                target="_blank"
-              >
-                View on Netify
-              </ProjectLink>
+              <ProjectInfo>
+                <ProjectTitle>Calculater App</ProjectTitle>
+                <ProjectDescription>
+                  This is a simple calculator app.
+                </ProjectDescription>
+                <ProjectLinks>
+                  <ProjectLink
+                    href="https://github.com/LastGreenseer/Calculator-App"
+                    alt="Calculater App"
+                    target="_blank"
+                  >
+                    View on Github
+                  </ProjectLink>
+                  <ProjectLink
+                    href="https://calculater-rc.netlify.app/"
+                    alt="Calculater App"
+                    target="_blank"
+                  >
+                    View on Netify
+                  </ProjectLink>
+                </ProjectLinks>
+              </ProjectInfo>
+              <ProjectImage src="src\Images\calculater-rc.png" />
             </ProjectCard>
 
             <ProjectCard>
               <ProjectTitle>Drumkit Challange</ProjectTitle>
-              <ProjectDescription>
-                This app is a 'Drum Kit' soundboard that plays a specific sound
-                when the user presses the corosponding key. It works in the same
-                way as the 'Keycode Generator' shown before, in that it runs a
-                function when a specific key is pressed.
-              </ProjectDescription>
-              <ProjectLink
-                href="https://github.com/LastGreenseer/Drumkit_Challenge"
-                alt="Drumkit Challange"
-                target="_blank"
-              >
-                View on Github
-              </ProjectLink>
-              <ProjectLink
-                href="https://drumkitchallenge-rc.netlify.app/"
-                alt="Drumkit Challange"
-                target="_blank"
-              >
-                View on Netify
-              </ProjectLink>
+              <ProjectInfo>
+                <ProjectDescription>
+                  This app is a 'Drum Kit' soundboard that plays a specific
+                  sound when the user presses the corosponding key. It works in
+                  the same way as the 'Keycode Generator' shown before, in that
+                  it runs a function when a specific key is pressed.
+                </ProjectDescription>
+                <ProjectLinks>
+                  <ProjectLink
+                    href="https://github.com/LastGreenseer/Drumkit_Challenge"
+                    alt="Drumkit Challange"
+                    target="_blank"
+                  >
+                    View on Github
+                  </ProjectLink>
+                  <ProjectLink
+                    href="https://drumkitchallenge-rc.netlify.app/"
+                    alt="Drumkit Challange"
+                    target="_blank"
+                  >
+                    View on Netify
+                  </ProjectLink>
+                </ProjectLinks>
+              </ProjectInfo>
             </ProjectCard>
 
             <ProjectCard>
