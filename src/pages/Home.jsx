@@ -110,7 +110,7 @@ const Home = () => {
                   </ProjectLink>
                 </ProjectLinks>
               </ProjectInfo>
-              <ProjectImage src="src\Images\calculater-rc.png" />
+              <ProjectImage src="src\Images\calculater-rc.png" alt="Calculater Screenshot" />
             </ProjectCard>
 
             <ProjectCard>
@@ -139,6 +139,7 @@ const Home = () => {
                   </ProjectLink>
                 </ProjectLinks>
               </ProjectInfo>
+              <ProjectImage src="src\Images\drumkit-rc.png" alt="Drumkit Screenshot" />
             </ProjectCard>
 
             <ProjectCard>
