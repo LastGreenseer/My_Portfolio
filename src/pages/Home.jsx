@@ -184,47 +184,27 @@ const Home = () => {
 
             <ProjectCard>
               <ProjectInfo>
-                <ProjectTitle>Cats4lyfe</ProjectTitle>
-
-                <ProjectDescription>desc</ProjectDescription>
-                <ProjectLinks>
-                  <ProjectLink
-                    href="https://github.com/LastGreenseer/to-do-list"
-                    alt="To-Do List"
-                    target="_blank"
-                  >
-                    View on Github
-                  </ProjectLink>
-                  <ProjectLink
-                    href="https://ryans-to-do-list.netlify.app/"
-                    alt="To-Do List"
-                    target="_blank"
-                  >
-                    View on Netify
-                  </ProjectLink>
-                </ProjectLinks>
-              </ProjectInfo>
-              <ProjectImage src="" alt="Cats4lyfe Screenshot" />
-            </ProjectCard>
-
-            <ProjectCard>
-              <ProjectInfo>
-                <ProjectTitle>Title</ProjectTitle>
+                <ProjectTitle>Cats4lyf</ProjectTitle>
 
                 <ProjectDescription>
-                  desc
+                  This was one of my first projects working in a group, as such
+                  I learned much about working as part of a team aswell as
+                  coding. We learned how to plan and assign tasks using Trello,
+                  how to communicate effectivly as a team and the importance of
+                  Git pull requests and merging branches when working with
+                  others
                 </ProjectDescription>
                 <ProjectLinks>
                   <ProjectLink
-                    href=""
-                    alt=""
+                    href="https://github.com/LastGreenseer/Cats4lyf"
+                    alt="Cats4lyf Github"
                     target="_blank"
                   >
                     View on Github
                   </ProjectLink>
                   <ProjectLink
-                    href=""
-                    alt=""
+                    href="https://cats4lyf-ryan.netlify.app/"
+                    alt="Cats4lyf Netlify"
                     target="_blank"
                   >
                     View on Netify
@@ -232,9 +212,26 @@ const Home = () => {
                 </ProjectLinks>
               </ProjectInfo>
               <ProjectImage
-                src=""
-                alt=""
+                src="src\Images\Cats4lyf.png"
+                alt="Cats4lyf Screenshot"
               />
+            </ProjectCard>
+
+            <ProjectCard>
+              <ProjectInfo>
+                <ProjectTitle>Title</ProjectTitle>
+
+                <ProjectDescription>desc</ProjectDescription>
+                <ProjectLinks>
+                  <ProjectLink href="" alt="" target="_blank">
+                    View on Github
+                  </ProjectLink>
+                  <ProjectLink href="" alt="" target="_blank">
+                    View on Netify
+                  </ProjectLink>
+                </ProjectLinks>
+              </ProjectInfo>
+              <ProjectImage src="" alt="" />
             </ProjectCard>
           </>
         )}
@@ -304,9 +301,9 @@ const Projects = styled.div`
 `;
 
 const ProjectCard = styled.div`
-display:flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #533564;
   margin: 15px;
   margin-bottom: 20px;
@@ -317,11 +314,11 @@ align-items: center;
 `;
 
 const ProjectInfo = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
-flex: 1;
-padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding-right: 10px;
   max-width: 70%;
 `;
 
