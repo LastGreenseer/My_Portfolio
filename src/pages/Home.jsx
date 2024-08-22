@@ -56,9 +56,9 @@ const Home = () => {
                     View on Github
                   </ProjectLink>
 
-                  <ProjectLink href="" target="_blank">
+                  {/* <ProjectLink href="" target="_blank">
                     View on Netify
-                  </ProjectLink>
+                  </ProjectLink> */}
                 </ProjectLinks>
               </ProjectInfo>
               <ProjectImage
@@ -118,8 +118,8 @@ const Home = () => {
 
             <ProjectCard>
               <ProjectInfo>
-              <ProjectTitle>Drumkit Challange</ProjectTitle>
-              
+                <ProjectTitle>Drumkit Challange</ProjectTitle>
+
                 <ProjectDescription>
                   This app is a 'Drum Kit' soundboard that plays a specific
                   sound when the user presses the corosponding key. It works in
@@ -151,8 +151,8 @@ const Home = () => {
 
             <ProjectCard>
               <ProjectInfo>
-              <ProjectTitle>To Do List</ProjectTitle>
-              
+                <ProjectTitle>To Do List</ProjectTitle>
+
                 <ProjectDescription>
                   This is a 'To-Do List' app where users can add a task to the
                   to-do board and mark the task as done once the task is
@@ -176,7 +176,65 @@ const Home = () => {
                   </ProjectLink>
                 </ProjectLinks>
               </ProjectInfo>
-              <ProjectImage src="src\Images\to-do-list-rc.png" alt="to-do List Screenshot" />
+              <ProjectImage
+                src="src\Images\to-do-list-rc.png"
+                alt="to-do List Screenshot"
+              />
+            </ProjectCard>
+
+            <ProjectCard>
+              <ProjectInfo>
+                <ProjectTitle>Cats4lyfe</ProjectTitle>
+
+                <ProjectDescription>desc</ProjectDescription>
+                <ProjectLinks>
+                  <ProjectLink
+                    href="https://github.com/LastGreenseer/to-do-list"
+                    alt="To-Do List"
+                    target="_blank"
+                  >
+                    View on Github
+                  </ProjectLink>
+                  <ProjectLink
+                    href="https://ryans-to-do-list.netlify.app/"
+                    alt="To-Do List"
+                    target="_blank"
+                  >
+                    View on Netify
+                  </ProjectLink>
+                </ProjectLinks>
+              </ProjectInfo>
+              <ProjectImage src="" alt="Cats4lyfe Screenshot" />
+            </ProjectCard>
+
+            <ProjectCard>
+              <ProjectInfo>
+                <ProjectTitle>Title</ProjectTitle>
+
+                <ProjectDescription>
+                  desc
+                </ProjectDescription>
+                <ProjectLinks>
+                  <ProjectLink
+                    href=""
+                    alt=""
+                    target="_blank"
+                  >
+                    View on Github
+                  </ProjectLink>
+                  <ProjectLink
+                    href=""
+                    alt=""
+                    target="_blank"
+                  >
+                    View on Netify
+                  </ProjectLink>
+                </ProjectLinks>
+              </ProjectInfo>
+              <ProjectImage
+                src=""
+                alt=""
+              />
             </ProjectCard>
           </>
         )}
