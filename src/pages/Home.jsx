@@ -56,9 +56,9 @@ const Home = () => {
                     View on Github
                   </ProjectLink>
 
-                  <ProjectLink href="" target="_blank">
+                  {/* <ProjectLink href="" target="_blank">
                     View on Netify
-                  </ProjectLink>
+                  </ProjectLink> */}
                 </ProjectLinks>
               </ProjectInfo>
               <ProjectImage
@@ -118,8 +118,8 @@ const Home = () => {
 
             <ProjectCard>
               <ProjectInfo>
-              <ProjectTitle>Drumkit Challange</ProjectTitle>
-              
+                <ProjectTitle>Drumkit Challange</ProjectTitle>
+
                 <ProjectDescription>
                   This app is a 'Drum Kit' soundboard that plays a specific
                   sound when the user presses the corosponding key. It works in
@@ -151,8 +151,8 @@ const Home = () => {
 
             <ProjectCard>
               <ProjectInfo>
-              <ProjectTitle>To Do List</ProjectTitle>
-              
+                <ProjectTitle>To Do List</ProjectTitle>
+
                 <ProjectDescription>
                   This is a 'To-Do List' app where users can add a task to the
                   to-do board and mark the task as done once the task is
@@ -176,7 +176,111 @@ const Home = () => {
                   </ProjectLink>
                 </ProjectLinks>
               </ProjectInfo>
-              <ProjectImage src="src\Images\to-do-list-rc.png" alt="to-do List Screenshot" />
+              <ProjectImage
+                src="src\Images\to-do-list-rc.png"
+                alt="to-do List Screenshot"
+              />
+            </ProjectCard>
+
+            <ProjectCard>
+              <ProjectInfo>
+                <ProjectTitle>Cats4lyf</ProjectTitle>
+
+                <ProjectDescription>
+                  This was one of my first projects working in a group, as such
+                  I learned much about working as part of a team aswell as
+                  coding. We learned how to plan and assign tasks using Trello,
+                  how to communicate effectivly as a team and the importance of
+                  Git pull requests and merging branches when working with
+                  others
+                </ProjectDescription>
+                <ProjectLinks>
+                  <ProjectLink
+                    href="https://github.com/LastGreenseer/Cats4lyf"
+                    alt="Cats4lyf Github"
+                    target="_blank"
+                  >
+                    View on Github
+                  </ProjectLink>
+                  <ProjectLink
+                    href="https://cats4lyf-ryan.netlify.app/"
+                    alt="Cats4lyf Netlify"
+                    target="_blank"
+                  >
+                    View on Netify
+                  </ProjectLink>
+                </ProjectLinks>
+              </ProjectInfo>
+              <ProjectImage
+                src="src\Images\Cats4lyf.png"
+                alt="Cats4lyf Screenshot"
+              />
+            </ProjectCard>
+
+            <ProjectCard>
+              <ProjectInfo>
+                <ProjectTitle>InstClone</ProjectTitle>
+
+                <ProjectDescription>
+                  This was the first project in which I worked on both a
+                  front-end and a back-end. The back-end is the server side of
+                  the application and handles the CRUD operators. The front-end
+                  handles everything the user sees.{" "}
+                </ProjectDescription>
+                <ProjectLinks>
+                  <ProjectLink
+                    href="https://github.com/LastGreenseer/M55_instaclone_FE"
+                    alt="InstaClone Github"
+                    target="_blank"
+                  >
+                    View on Github
+                  </ProjectLink>
+                  {/* <ProjectLink href="" alt="InstaClone Netlify" target="_blank">
+                    View on Netify
+                  </ProjectLink> */}
+                </ProjectLinks>
+              </ProjectInfo>
+              <ProjectImage
+                src="src\Images\instaClone2.png"
+                alt="InstaClone Screenshot"
+              />
+            </ProjectCard>
+
+            <ProjectCard>
+              <ProjectInfo>
+                <ProjectTitle>Character Vault</ProjectTitle>
+
+                <ProjectDescription>
+                  This was the final project I worked on in my bootcamp. It was
+                  a group project, and our group had decided to make an app
+                  where users can store information about characters they have
+                  made in stories the user is writing. Users can create an
+                  account, sign in and add characters to the vault which they
+                  can then view to bring up all the important information about
+                  that character. We also gave a presentation showcasing the app
+                  and explaining who it is for.
+                </ProjectDescription>
+                <ProjectLinks>
+                  <ProjectLink
+                    href="https://github.com/LastGreenseer/m55_character_vault_FE"
+                    alt="Character Vault Front End Link"
+                    target="_blank"
+                  >
+                    View on Github
+                  </ProjectLink>
+                  <ProjectLink
+                    href="https://charactervault.netlify.app/login"
+                    alt="Character Vault Netlify Link"
+                    target="_blank"
+                  >
+                    View on Netify
+                  </ProjectLink>
+                </ProjectLinks>
+              </ProjectInfo>
+              <ProjectImage
+                src="src\Images\Character Vault.png"
+                alt="Character Vault Screenshot"
+              />
             </ProjectCard>
           </>
         )}
@@ -246,9 +350,9 @@ const Projects = styled.div`
 `;
 
 const ProjectCard = styled.div`
-display:flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #533564;
   margin: 15px;
   margin-bottom: 20px;
@@ -259,11 +363,11 @@ align-items: center;
 `;
 
 const ProjectInfo = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
-flex: 1;
-padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding-right: 10px;
   max-width: 70%;
 `;
 
