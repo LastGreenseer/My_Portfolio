@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
+const emailAddress = import.meta.env.VITE_EMAIL_ADDRESS;
+
 const ContactMe = () => {
   return (
     <Container>
       <Title>Contact Me</Title>
+      <p>Email: <a href={`mailto:${emailAddress}`}>{emailAddress}</a></p>
     </Container>
   );
 };
